@@ -1,4 +1,4 @@
-package com.saniel.oauth2login.model;
+package com.gare.oauth2login.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

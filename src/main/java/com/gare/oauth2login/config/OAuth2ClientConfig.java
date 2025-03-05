@@ -1,4 +1,4 @@
-package com.saniel.oauth2login.config;
+package com.gare.oauth2login.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

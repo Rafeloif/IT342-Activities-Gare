@@ -1,6 +1,6 @@
-package com.saniel.oauth2login.service;
+package com.gare.oauth2login.service;
 
-import com.saniel.oauth2login.model.Contact;
+import com.gare.oauth2login.model.Contact;
 import org.springframework.http.*;
 import org.springframework.security.oauth2.client.OAuth2AuthorizedClient;
 import org.springframework.security.oauth2.client.OAuth2AuthorizedClientService;

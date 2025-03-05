@@ -1,4 +1,4 @@
-package com.saniel.oauth2login;
+package com.gare.oauth2login;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

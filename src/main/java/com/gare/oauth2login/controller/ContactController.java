@@ -1,7 +1,7 @@
-package com.saniel.oauth2login.controller;
+package com.gare.oauth2login.controller;
 
-import com.saniel.oauth2login.model.Contact;
-import com.saniel.oauth2login.service.GooglePeopleService;
+import com.gare.oauth2login.model.Contact;
+import com.gare.oauth2login.service.GooglePeopleService;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

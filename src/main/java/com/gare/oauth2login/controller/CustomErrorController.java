@@ -1,4 +1,4 @@
-package com.saniel.oauth2login.controller;
+package com.gare.oauth2login.controller;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServletRequest;

@@ -4,20 +4,20 @@
   <title>Google Contacts Manager</title>
   <style>
     body {
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 20px;
-      background-color: #2c3e50;
-      color: #ecf0f1;
+      background-color: #1a1a2e;
+      color: #eaeaea;
     }
     h2 {
-      color: #e74c3c;
+      color: #ff4c4c;
       text-align: center;
     }
     .contacts-container {
       max-width: 800px;
       margin: 20px auto;
-      background: #34495e;
+      background: #16213e;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -28,11 +28,11 @@
     }
     th, td {
       padding: 12px;
-      border: 1px solid #7f8c8d;
+      border: 1px solid #4e4e50;
       text-align: left;
     }
     th {
-      background-color: #2c3e50;
+      background-color: #0f3460;
     }
     .btn {
       padding: 8px 12px;
@@ -44,28 +44,28 @@
       transition: background-color 0.2s;
     }
     .btn-edit {
-      background-color: #3498db;
+      background-color: #5bc0be;
     }
     .btn-edit:hover {
-      background-color: #2980b9;
+      background-color: #3a506b;
     }
     .btn-delete {
-      background-color: #e74c3c;
+      background-color: #ff4c4c;
     }
     .btn-delete:hover {
-      background-color: #c0392b;
+      background-color: #d63447;
     }
     .btn-save {
-      background-color: #2ecc71;
+      background-color: #4caf50;
     }
     .btn-save:hover {
-      background-color: #27ae60;
+      background-color: #388e3c;
     }
     .btn-cancel {
-      background-color: #95a5a6;
+      background-color: #9a9a9a;
     }
     .btn-cancel:hover {
-      background-color: #7f8c8d;
+      background-color: #7a7a7a;
     }
     .modal {
       display: none;
@@ -79,7 +79,7 @@
       background-color: rgba(0,0,0,0.4);
     }
     .modal-content {
-      background-color: #34495e;
+      background-color: #16213e;
       margin: 15% auto;
       padding: 20px;
       border-radius: 5px;
@@ -100,26 +100,26 @@
     .nav-btn {
       display: inline-block;
       padding: 10px 15px;
-      background-color: #e74c3c;
+      background-color: #ff4c4c;
       color: white;
       text-decoration: none;
       border-radius: 4px;
       margin: 0 5px;
     }
     .nav-btn:hover {
-      background-color: #c0392b;
+      background-color: #d63447;
     }
     .empty-contacts {
       text-align: center;
       padding: 30px;
-      color: #95a5a6;
+      color: #9a9a9a;
     }
     .add-contact-section {
       margin-bottom: 20px;
       text-align: right;
     }
     .btn-add {
-      background-color: #2ecc71;
+      background-color: #4caf50;
       color: white;
       padding: 10px 20px;
       border: none;
@@ -127,7 +127,7 @@
       cursor: pointer;
     }
     .btn-add:hover {
-      background-color: #27ae60;
+      background-color: #388e3c;
     }
     .add-contact-modal {
       width: 400px !important;
@@ -145,18 +145,18 @@
     }
     .form-group label {
       font-weight: bold;
-      color: #ecf0f1;
+      color: #eaeaea;
     }
     .form-group input {
       padding: 8px;
-      border: 1px solid #7f8c8d;
+      border: 1px solid #4e4e50;
       border-radius: 4px;
       font-size: 14px;
     }
     .form-group input:focus {
-      border-color: #2ecc71;
+      border-color: #4caf50;
       outline: none;
-      box-shadow: 0 0 5px rgba(46, 204, 113, 0.2);
+      box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
     }
     .toast-container {
       position: fixed;
@@ -175,10 +175,10 @@
       transition: opacity 0.3s ease;
     }
     .toast.toast-success {
-      background-color: #2ecc71;
+      background-color: #4caf50;
     }
     .toast.toast-error {
-      background-color: #e74c3c;
+      background-color: #ff4c4c;
     }
   </style>
 </head>
